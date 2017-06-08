@@ -6,8 +6,11 @@
 </script>
 <script>
 $(document).ready(function(){
-  $("#btn").click(function(){
+  $("#btn1").click(function(){
     $("img").after("<i>之后</i>");
+  });
+   $("#btn2").click(function(){
+    $("i").remove();
   });
 });
 </script>
@@ -16,6 +19,7 @@ $(document).ready(function(){
 <body>
 <img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png" >
 <br><br>
-<button id="btn">插入</button>
+<button id="btn1">插入</button>
+<button id="btn2">移除</button>
 </body>
 </html>
