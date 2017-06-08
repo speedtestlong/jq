@@ -6,11 +6,7 @@
 </script>
 <script>
 $(document).ready(function(){
-  $("#btn1").click(function(){
-    $("img").before("<b>之前</b>");
-  });
-
-  $("#btn2").click(function(){
+  $("#btn").click(function(){
     $("img").after("<i>之后</i>");
   });
 });
@@ -20,7 +16,6 @@ $(document).ready(function(){
 <body>
 <img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png" >
 <br><br>
-<button id="btn1">之前插入</button>
-<button id="btn2">之后插入</button>
+<button id="btn">之后插入</button>
 </body>
 </html>
